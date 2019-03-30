@@ -96,11 +96,10 @@
         margin-top: 40px;
         color: rgba(102, 102, 102, 255);
     }
-    
-    p {
+    /* p {
         font-size: 22px;
         margin: 22px 130px;
-    }
+    } */
     
     h2 {
         font-size: 30px;
@@ -190,10 +189,14 @@
         text-shadow: 0 0 1px black;
     }
     
+    #services {
+        margin: 50px auto;
+    }
+    
     .service {
-        margin: 50px 20px;
+        margin: 0 20px;
         width: 280px;
-        height: 380px;
+        height: 325px;
         background-color: white;
         box-shadow: 0 0 0px 0px black;
         text-shadow: 0 0 20px #4c004ec4;
@@ -202,20 +205,31 @@
     
     .service .wrap {
         text-align: center;
-        margin: 25px 10px;
+        margin: auto;
+        transition: 0.5s;
+        padding: 10px 1px;
     }
     
     .service h2 {
-        text-transform: uppercase;
+        /* text-transform: uppercase; */
         font-size: 16px;
         margin: 20px 0;
     }
     
     .service p {
         text-align: center;
-        background: #ffffff;
+        background: #ffffff00;
         font-size: 13px;
-        color: #e488f9;
+        color: #4e156fc4;
+        padding: 0;
+    }
+    /* img {
+        margin: 10px;
+    } */
+    
+    .service .wrap:hover {
+        background: #d8b4e7;
+        cursor: pointer;
     }
     
     @media(max-width: 745px) {
